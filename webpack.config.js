@@ -11,7 +11,7 @@ module.exports = (env, argv) => {
       filename: 'bundle.[contenthash].js',
       clean: true,
       // GitHub Pages 需要正確的 publicPath
-      publicPath: isProduction ? '/3D_Resume/' : '/',
+      publicPath: isProduction ? '/3D_letter/' : '/',
     },
     module: {
       rules: [
